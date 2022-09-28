@@ -2,7 +2,8 @@
 
 Simple router. It doesn't work with GET and POST methods.
 
-##How to use
+## How to use
+
 Firstly, you need to create Router. In construct method you should pass the 404page filename.
  ```php
 $router = new Router('error404.php');
